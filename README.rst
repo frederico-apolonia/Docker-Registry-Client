@@ -15,10 +15,15 @@ Usage
 -----
 
     docker-registry list [-s|--size]
+    
     docker-registry list [-s|--size] <repository>
+    
     docker-registry delete <repository> <tag1> <tag2> ...
+    
     docker-registry delete-range <repository> <from-tag> <to-tag>
+    
     docker-registry delete-repository <repository>
+    
 
 **Note**: environment variable ``DOCKER_REGISTRY_URL`` must be set for all functions to work
 **Note**: environment variable ``DOCKER_REGISTRY_DATA_PATH`` must be set for delete-repository to work
