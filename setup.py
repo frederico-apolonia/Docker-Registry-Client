@@ -24,7 +24,7 @@ def get_version(*relpath):
 
 
 setup(
-    name='docker-registry-client',
+    name='docker-registry-admin',
     version=get_version('docker_registry_client.py'),
     description='A convenience script to list and delete registries from docker registry.',
     long_description=read('README.rst'),
@@ -42,7 +42,6 @@ setup(
     install_requires=[
         'docopt',
         'requests',
-        'shutil',
     ],
     package_dir={'': '.'},
     py_modules=['docker_registry_client'],

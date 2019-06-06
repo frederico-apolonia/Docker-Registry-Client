@@ -13,7 +13,7 @@ note: environment variable DOCKER_REGISTRY_DATA_PATH is expected to specify the 
 
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 
 from collections import defaultdict

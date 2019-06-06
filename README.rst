@@ -1,15 +1,12 @@
-================
+===========================
  docker-registry-functions
-================
-
-``search-replace`` is a trivial Python script that implements
-search/replace in text files.
+===========================
 
 ``docker-registry-functions`` is a Python script that implements Docker Registry functions such as: listing repositories, listing tags from a repository, delete tags and delete a repository.
 
 GITHUB
 
-Copyright (c) 2019 Frederico Apolónia <fredericojcapolo@gmail.com>
+Copyright (c) 2019 Frederico Apolónia fredericojcapolo@gmail.com
 
 Usage
 -----
