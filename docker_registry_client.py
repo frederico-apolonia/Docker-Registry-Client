@@ -13,7 +13,7 @@ note: environment variable DOCKER_REGISTRY_DATA_PATH is expected to specify the 
 
 """
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 
 from collections import defaultdict
@@ -34,7 +34,7 @@ if 'DOCKER_REGISTRY_URL' not in os.environ:
     )
     sys.exit(2)
 
-DOCKER_REGISTRY_URL = os.environ['DOCKER_REGISTRY_URL']
+DOCKER_REGISTRY_URL = os.environ['DOCKER_REGISTRY_URL'].rstrip('/')
 
 
 def get_repositories():
